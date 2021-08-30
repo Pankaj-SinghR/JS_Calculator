@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script> 
+   <title>Calculator</title>
+
+</head>
+<body>
+    <div name='center' class="center">
+        <div name='calculator' class="cal">
+            
+            <input name='display' type="text" id='dis' class="display" />
+
+            <div class="button_area">
+            
+                <input type="button" value="(" class="open_bracket btn" onclick="display_value('(')">
+                <input type="button" value=")" class="close_bracket btn" onclick="display_value(')')">
+                <input type="button" value="%" class="modulus btn" onclick="display_value('%')">
+                <input type="button" value="AC" class="all_clear btn" onclick="display_value('ac')">
+               
+                <input type="button" value="7" class="seven btn" onclick="display_value('7')" >
+                <input type="button" value="8" class="eight btn" onclick="display_value('8')" >
+                <input type="button" value="9" class="nine btn" onclick="display_value('9')" >
+                <input type="button" value="/" class="division btn"  onclick="display_value('/')" >
+
+                <input type="button" value="4" class="four btn"  onclick="display_value('4')" >
+                <input type="button" value="5" class="five btn"  onclick="display_value('5')" >
+                <input type="button" value="6" class="six btn"  onclick="display_value('6')" >
+                <input type="button" value="*" class="multiplication btn"  onclick="display_value('*')" >
+
+                <input type="button" value="1" class="one btn"  onclick="display_value('1')" >
+                <input type="button" value="2" class="two btn"  onclick="display_value('2')" >
+                <input type="button" value="3" class="three btn" onclick="display_value('3')" >
+                <input type="button" value="-" class="subtraction btn" onclick="display_value('-')" >
+
+                <input type="button" value="0" class="zero btn" onclick="display_value('0')" >
+                <input type="button" value="." class="dot btn" onclick="display_value('.')" >
+                <input type="button" value="=" class="isequal btn" onclick="result(eval(document.getElementById('dis').value))" >
+                <input type="button" value="+" class="addition btn" onclick="display_value('+')" >
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
