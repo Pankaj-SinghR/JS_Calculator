@@ -2,4 +2,4 @@
 
 Calculator In Javascript
 
-# Demo : [link](https://pankajsingh1010.github.io/JS_Calculator/)
+# Demo : [link](https://Pankaj-SinghR.github.io/JS_Calculator/)
